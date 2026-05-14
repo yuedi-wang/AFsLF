@@ -14,13 +14,4 @@ This repository contains the core algorithm code of AFsLF, which enables long-te
 ```bash
 pip install numpy tifffile opencv-python pickle-mixin
 
----
 
-
-## License
-
-This software is licensed under the GNU General Public License v2.0.
-
-SPDX-License-Identifier: GPL-2.0-only
-
-See the LICENSE file for details.

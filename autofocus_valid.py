@@ -1,3 +1,17 @@
+
+# Copyright (C) 2026 Yuedi Wang
+#
+# This file is part of AFsLF.
+#
+# AFsLF is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License version 2
+# as published by the Free Software Foundation.
+#
+# AFsLF is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY. See the LICENSE file for details.
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
 import tifffile
 import numpy as np
 import pickle

@@ -39,13 +39,13 @@ The released Python code can be run on a standard desktop or workstation environ
 Tested operating system:
 
 ```text
-[TODO: please add the tested system, e.g., Windows 11 or Ubuntu 22.04]
+ Windows 11
 ```
 
 ### Python Version
 
 ```text
-Python >= 3.8
+Python = 3.8
 ```
 
 ### Dependencies
@@ -58,7 +58,6 @@ pip install numpy tifffile opencv-python
 
 The released script also uses the Python standard library module `pickle`, which does not require separate installation.
 
-For reproducibility, please record the tested package versions in a `requirements.txt` file.
 
 ### Hardware
 
@@ -101,7 +100,7 @@ pip install numpy tifffile opencv-python
 Typical installation time on a normal desktop computer:
 
 ```text
-[TODO: please test and add, e.g., approximately 5-10 minutes]
+approximately 2 hours
 ```
 
 ---
@@ -118,7 +117,6 @@ data/
 undistort_params_dict_points_240620.pkl
 ```
 
-The calibration file `undistort_params_dict_points_240620.pkl` is required by the current script. If it is not included in the repository, please add it to the repository root directory or update its path in `autofocus_valid.py`.
 
 ### Run the Demo
 
@@ -149,10 +147,8 @@ During execution, the script prints the estimated image shift and defocus value 
 Expected runtime for the demo:
 
 ```text
-[TODO: please test the released demo and add the actual runtime]
+approximately 0.1 s
 ```
-
-The manuscript reports that AFsLF can complete defocus estimation within approximately 0.1 s per frame under the tested experimental setting.
 
 ---
 
@@ -163,7 +159,7 @@ To run AFsLF on new sLFM data, prepare:
 ```text
 1. TIFF image sequence or TIFF stack from an sLFM/csLFM/RUSH3D system
 2. Pre-calibrated undistortion parameter file
-3. System-specific parameters, including image size, crop center, crop size, and calibration coefficient
+3. System-specific parameters
 ```
 
 In `autofocus_valid.py`, update the system-specific parameters, including:
@@ -207,7 +203,7 @@ To reproduce the quantitative results reported in the manuscript:
 6. Use output_fft.txt together with source-data.xlsx to reproduce the corresponding quantitative analyses and plots.
 ```
 
-The algorithmic details are described in the manuscript section **Materials and methods: Derivation and implementation of AFsLF** and in the Supplementary Information, including ECC-based displacement estimation and the physical basis of the linear autofocus model.
+
 
 ---
 
@@ -221,4 +217,4 @@ Recommended SPDX identifier:
 SPDX-License-Identifier: GPL-2.0-only
 ```
 
-Each source file should keep the GPLv2 license header.
+

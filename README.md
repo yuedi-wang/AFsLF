@@ -20,7 +20,6 @@ This software is released under the **GNU General Public License v2.0 (GPL-2.0-o
 
 ## Data Availability
 
-Example data for running AFsLF are provided in the `data/` directory of this repository.
 
 Source Data associated with the manuscript are provided in `source-data.xlsx` and are additionally deposited at Zenodo:
 
